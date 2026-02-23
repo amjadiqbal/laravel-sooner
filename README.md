@@ -2,13 +2,13 @@
 
 The ultimate Sonner toast notification wrapper for Laravel. Beautiful, stackable, and lightweight notifications for your Blade and Livewire applications.
 
-![Social Banner](https://raw.githubusercontent.com/amjadiqbal/laravel-sonner/main/assets/laravel-sooner.png)
+![Social Banner](assets/laravel-sooner.png)
 
 [![Packagist Version](https://img.shields.io/packagist/v/amjadiqbal/laravel-sonner?color=0ea5e9)](https://packagist.org/packages/amjadiqbal/laravel-sonner)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/amjadiqbal/laravel-sonner?color=22c55e)](https://packagist.org/packages/amjadiqbal/laravel-sonner)
 [![License](https://img.shields.io/badge/license-MIT-8b5cf6.svg)](LICENSE)
 [![CI: Pest](https://img.shields.io/github/actions/workflow/status/amjadiqbal/laravel-sonner/pest.yml?branch=main&label=CI%20(Pest)&color=2dd4bf)](https://github.com/amjadiqbal/laravel-sonner/actions)
-[![PHP](https://img.shields.io/badge/PHP-%3E%3D8.1-777bb3?logo=php)](#)
+[![PHP](https://img.shields.io/badge/PHP-%3E%3D8.2-777bb3?logo=php)](#)
 [![Laravel](https://img.shields.io/badge/Laravel-10%20%7C%2011-ff2d20?logo=laravel)](#)
 [![Coverage](https://img.shields.io/badge/coverage-codecov-blue)](https://codecov.io/gh/amjadiqbal/laravel-sonner)
 
