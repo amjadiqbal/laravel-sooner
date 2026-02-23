@@ -18,7 +18,7 @@ jobs:
       - uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
-          coverage: pcov
+          coverage: xdebug
           extensions: mbstring, dom, curl, json
       - run: composer validate
       - if: matrix.laravel == '10'
@@ -27,6 +27,11 @@ jobs:
         run: composer require --no-update orchestra/testbench:^9
       - run: composer install --no-interaction --prefer-dist
       - run: vendor/bin/pest --ci --coverage --coverage-clover=coverage.xml
+      - uses: codecov/codecov-action@v4
+        with:
+          files: coverage.xml
+          fail_ci_if_error: true
+          flags: php-${{ matrix.php }}-laravel-${{ matrix.laravel }}
       - uses: actions/upload-artifact@v4
         with:
           name: coverage-${{ matrix.php }}-laravel-${{ matrix.laravel }}

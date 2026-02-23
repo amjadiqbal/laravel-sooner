@@ -10,7 +10,7 @@ The ultimate Sonner toast notification wrapper for Laravel. Beautiful, stackable
 [![CI: Pest](https://img.shields.io/github/actions/workflow/status/amjadiqbal/laravel-sonner/pest.yml?branch=main&label=CI%20(Pest)&color=2dd4bf)](https://github.com/amjadiqbal/laravel-sonner/actions)
 [![PHP](https://img.shields.io/badge/PHP-%3E%3D8.2-777bb3?logo=php)](#)
 [![Laravel](https://img.shields.io/badge/Laravel-10%20%7C%2011-ff2d20?logo=laravel)](#)
-[![Coverage](https://img.shields.io/badge/coverage-codecov-blue)](https://codecov.io/gh/amjadiqbal/laravel-sonner)
+[![Coverage](https://codecov.io/gh/amjadiqbal/laravel-sonner/branch/main/graph/badge.svg)](https://codecov.io/gh/amjadiqbal/laravel-sonner)
 
 ## SEO
 - Modern Laravel Notifications
